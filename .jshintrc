@@ -1,0 +1,10 @@
+{
+    "esversion": 6,
+    "curly": true,
+    "latedef": false,
+    "evil": true,
+    "noarg": true,
+    "undef": true,
+    "eqnull": true,
+    "node": true
+}

@@ -1,0 +1,34 @@
+{
+  "name": "event-maps-api",
+  "version": "1.0.0",
+  "description": "RESTful API for Event Maps Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug1": "jshint app.js",
+    "debug2": "jshint api/models/",
+    "debug3": "jshint api/routes/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse3311-project/event-maps-api.git"
+  },
+  "author": "Emmanuel Rocha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cse3311-project/event-maps-api/issues"
+  },
+  "homepage": "https://github.com/cse3311-project/event-maps-api#readme",
+  "devDependencies": {
+    "jshint": "^2.10.2",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1"
+  }
+}
